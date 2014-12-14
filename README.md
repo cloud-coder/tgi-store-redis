@@ -7,6 +7,7 @@ tgi-store-redis
 - after above type gulp from bash (not sure how windows works - you prob using linux?)
 - if successfail you should see this:
 
+```
  gulp
 [08:16:23] Using gulpfile ~/repos/tgi-store-redis/gulpfile.js
 [08:16:23] Starting '_buildLib'...
@@ -32,3 +33,4 @@ RedisStore unavailable (Error: Doug: need to code connect)
     at Socket.emit (events.js:95:17)
     at Pipe.close (net.js:465:12)
 $
+```
